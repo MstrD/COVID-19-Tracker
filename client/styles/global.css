@@ -1,0 +1,52 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 10px !important;
+}
+
+h1 {
+    font-size: 50pt !important;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+#line {
+    margin-bottom: -30px;
+}
+
+#credits {
+    text-align: right;
+    font-weight: lighter;
+}
+
+#country {
+    font-style: italic;
+}
+
+.axis {
+	font-size: 14px;
+  font-weight: bold;
+}
+  
+text {
+  fill: #727075;
+  stroke: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke: none;
+}
+
+.grid line {
+  stroke: #E0E0E0;
+  shape-rendering: crispEdges;
+}
